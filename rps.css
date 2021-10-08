@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(155, 145, 134);
+}
+span {
+    font-size: 50px;
+}
+#title {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0 2px gray;
+    font-family: 'Acme', sans-serif;
+    width: 100%;
+    background-color: rgb(31, 30, 28);
+    color: silver;
+}
+#container {
+    display: grid;
+     grid-template-columns: auto auto auto;
+     margin-left: 35%;
+     margin-right: 35%;
+     margin-top: 50px;
+}
+.optionOne {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 12px 15px 0 black;
+    background-color: black;
+    color: white;
+    border: 5px solid goldenrod;
+}
+.optionTwo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 12px 15px 0 black;
+    background-color: black;
+    color: white;
+    border: 5px solid goldenrod;
+}
+.optionThree {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 12px 15px 0 black;
+    background-color: black;
+    color: white;
+    border: 5px solid goldenrod;
+}
+#flex {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10%;
+    margin-top: 20px;
+    border: 5px greenyellow;
+}
+#flex1 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 90%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0 15px 15px 0 black;
+    font-family: 'Acme', sans-serif;
+}
+#flex2 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-left: -50%;
+    padding: 20px;
+    box-shadow: 0 15px 15px 0 black;
+    font-family: 'Acme', sans-serif;
+}
+#vs {
+    color: rgb(175, 0, 0);
+    font-size: 50px;
+    margin-left: 33%;
+    margin-top: 79px;
+    overflow: hidden;
+    font-family: 'Rubik Beastly', cursive;
+}
+#scoreComp {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+#scoreU {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+#result {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Acme', sans-serif;
+}
+#yourVal {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 80px;
+}
+#compVal {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 80px;  
+}

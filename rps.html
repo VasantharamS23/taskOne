@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Rubik+Beastly&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon-32x32.png"/>  
+    <link rel="stylesheet" href="rps.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="title">ROCK<span>🧱</span>PAPER<span>📜</span>SCISSOR<span>✂️</span></div>
+    <div id="result">Welcome to the Game!</div>
+    <div id="flex">
+        <div id="flex1">YOU
+            <div id="scoreU"></div>
+            <div id="yourVal"></div>
+        </div>
+        <dic id="vs">VS</dic>
+        <div id="flex2">HOUSE
+            <div id="scoreComp"></div>
+            <div id="compVal"></div>
+        </div>
+    </div>
+
+        <div id="container">
+            <button class="optionOne"  onclick="rock()"><img src="icon-rock.svg" ></button>
+            <button class="optionTwo"  onclick="paper()"><img src="icon-paper.svg" ></button>
+            <button class="optionThree" onclick="scissor()"><img src="icon-scissors.svg"></button>
+        </div>
+<script src="rps.js"></script>
+</body>
+</html>

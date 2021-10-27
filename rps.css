@@ -119,11 +119,11 @@ span {
     display: grid;
     grid-template-columns: auto auto;
 }
-@media (max-width: 368px) {
+@media (max-width: 370px) {
     body {
         margin: 0;
         width: 370px;
-        height: 500px;
+        background-size: cover;
     }
     span {
         font-size: 25px;
@@ -131,7 +131,7 @@ span {
     #title {
         font-size: 25px;
         height: 50px;
-        margin-bottom: 100px;
+        margin-bottom: 30px;
         border: 1px solid black;
     }
     #container {
@@ -165,7 +165,7 @@ span {
         width: 95%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 20px;
+        margin-top: 30px;
         overflow: hidden;
     }
     #flex1 {
@@ -214,4 +214,3 @@ span {
         width: 30px;
     }
 }
-

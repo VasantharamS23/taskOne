@@ -123,7 +123,7 @@ span {
     body {
         margin: 0;
         width: 370px;
-        background-size: cover;
+        height: 500px;
     }
     span {
         font-size: 25px;
@@ -131,7 +131,7 @@ span {
     #title {
         font-size: 25px;
         height: 50px;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
         border: 1px solid black;
     }
     #container {
@@ -165,7 +165,7 @@ span {
         width: 95%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 30px;
+        margin-top: 20px;
         overflow: hidden;
     }
     #flex1 {
@@ -191,9 +191,15 @@ span {
     }
     #result {
         font-size: 20px;
+        border: 1px solid black;
+        color: rgb(0, 0, 0);
+        font-family: 'Acme', sans-serif;
         height: 40px;
         width: 70%;
+        display: block;
         line-height: 35px;
+        background-color: yellow;
+        border-radius: 10px;
     }
     #yourVal {
         text-align: center;

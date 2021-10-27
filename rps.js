@@ -17,12 +17,15 @@ function rock() {
         computer.textContent = "🧱"
         console.log("Game tied")
         summary.textContent = "Game Tied"
+        summary.style.backgroundColor = "black"
+        summary.style.color = "silver"
         yourSum = 0
         houseSum = 0
     } else if (comp == 2) {
         computer.textContent = "📜"
         console.log("computer win")
         summary.textContent = "House Won..!"
+        summary.style.backgroundColor = "red"
         if(yourSum===0) {
             yourSum=0
             houseSum++
@@ -34,6 +37,8 @@ function rock() {
         computer.textContent = "✂️"
         console.log("YOU wins")
         summary.textContent = "You Won..!"
+        summary.style.backgroundColor = "silver"
+        summary.style.color = "black"
         if(houseSum===0) {
             houseSum=0
             yourSum++
@@ -56,12 +61,16 @@ function paper() {
         computer.textContent = "📜"
         console.log("Game tied")
         summary.textContent = "Game Tied"
+        summary.style.backgroundColor = "black"
+        summary.style.color = "silver"
         yourSum = 0
         houseSum = 0
     } else if (comp == 1) {
         computer.textContent = "🧱"
         console.log("You win win")
         summary.textContent = "You Won..!"
+        summary.style.backgroundColor = "silver"
+        summary.style.color = "black"
         if(houseSum===0) {
             houseSum=0
             yourSum++
@@ -73,6 +82,7 @@ function paper() {
         computer.textContent = "✂️"
         console.log("computer wins")
         summary.textContent = "House Won..!"
+        summary.style.backgroundColor = "red"
         if(yourSum===0) {
             yourSum=0
             houseSum++
@@ -95,12 +105,15 @@ function scissor() {
         computer.textContent = "✂️"
         console.log("Game tied")
         summary.textContent = "Game Tied"
+        summary.style.backgroundColor = "black"
+        summary.style.color = "silver"
         yourSum = 0
         houseSum = 0
     } else if (comp == 1) {
         computer.textContent = "🧱"
         console.log("computer win")
         summary.textContent = "House Won..!"
+        summary.style.backgroundColor = "red"
         if(yourSum===0) {
             yourSum=0
             houseSum++
@@ -112,6 +125,8 @@ function scissor() {
         computer.textContent = "📜"
         console.log("you win wins")
         summary.textContent = "You Won..!"
+        summary.style.backgroundColor = "silver"
+        summary.style.color = "black"
         if(houseSum===0) {
             houseSum=0
             yourSum++
